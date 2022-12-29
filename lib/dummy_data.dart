@@ -3,98 +3,68 @@ import './models/category.dart';
 import 'models/meal.dart';
 
 const dummyCategories = [
-//   Category(
-//     id: 'c1',
-//     title: 'Italian',
-//     color: Colors.purple,
-//   ),
-//   Category(
-//     id: 'c2',
-//     title: 'Quick & Easy',
-//     color: Colors.red,
-//   ),
-//   Category(
-//     id: 'c3',
-//     title: 'Hamburgers',
-//     color: Colors.orange,
-//   ),
-//   Category(
-//     id: 'c4',
-//     title: 'German',
-//     color: Colors.amber,
-//   ),
-//   Category(
-//     id: 'c5',
-//     title: 'Light & Lovely',
-//     color: Colors.blue,
-//   ),
-//   Category(
-//     id: 'c6',
-//     title: 'Exotic',
-//     color: Colors.green,
-//   ),
   Category(
-    id: 'c7',
-    title: 'Breakfast',
-    color: Colors.lightBlue,
+    id: 'c1',
+    title: 'BREAKFAST',
+    color: Color.fromARGB(255, 24, 111, 27),
   ),
   Category(
-    id: 'c8',
-    title: 'Asian',
-    color: Colors.lightGreen,
+    id: 'c2',
+    title: 'LUNCH',
+    color: Color.fromARGB(255, 24, 111, 27),
   ),
   Category(
-    id: 'c9',
-    title: 'French',
-    color: Colors.pink,
+    id: 'c3',
+    title: 'DINNER/SUPER',
+    color: Color.fromARGB(255, 24, 111, 27),
   ),
   Category(
-    id: 'c10',
-    title: 'Summer',
-    color: Colors.teal,
+    id: 'c4',
+    title: 'SNACKS',
+    color: Color.fromARGB(255, 24, 111, 27),
   ),
 ];
 
 const dummyMeals = [
-  const Meal(
+  // const Meal(
+  //   id: 'm1',
+  //   categories: [
+  //     'c7',
+  //   ],
+  //   title: 'Spaghetti with Tomato Sauce',
+  //   affordability: Affordability.Affordable,
+  //   complexity: Complexity.Simple,
+  //   imageUrl:
+  //       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+  //   duration: 20,
+  //   ingredients: [
+  //     '4 Tomatoes',
+  //     '1 Tablespoon of Olive Oil',
+  //     '1 Onion',
+  //     '250g Spaghetti',
+  //     'Spices',
+  //     'Cheese (optional)'
+  //   ],
+  //   steps: [
+  //     'Cut the tomatoes and the onion into small pieces.',
+  //     'Boil some water - add salt to it once it boils.',
+  //     'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
+  //     'In the meantime, heaten up some olive oil and add the cut onion.',
+  //     'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
+  //     'The sauce will be done once the spaghetti are.',
+  //     'Feel free to add some cheese on top of the finished dish.'
+  //   ],
+  //   isGlutenFree: false,
+  //   isVegan: true,
+  //   isVegetarian: true,
+  //   isLactoseFree: true,
+  // ),
+  Meal(
     id: 'm1',
     categories: [
-      'c7',
+      'c1',
     ],
-    title: 'Spaghetti with Tomato Sauce',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
-    duration: 20,
-    ingredients: [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
-    ],
-    steps: [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
-    ],
-    isGlutenFree: false,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meal(
-    id: 'm2',
-    categories: [
-      'c2',
-    ],
-    title: 'Toast Hawaii',
+    title: 'BREAD & TEA',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
@@ -118,12 +88,11 @@ const dummyMeals = [
     isLactoseFree: false,
   ),
   Meal(
-    id: 'm3',
+    id: 'm2',
     categories: [
-      'c2',
-      'c3',
+      'c1',
     ],
-    title: 'Classic Hamburger',
+    title: 'BIOLED YAM & EGG SAUCE',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
@@ -150,11 +119,11 @@ const dummyMeals = [
     isLactoseFree: true,
   ),
   Meal(
-    id: 'm4',
+    id: 'm3',
     categories: [
-      'c4',
+      'c1',
     ],
-    title: 'Wiener Schnitzel',
+    title: 'PANCAKE & HOT BEVERAGE',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
@@ -185,13 +154,11 @@ const dummyMeals = [
     isLactoseFree: false,
   ),
   Meal(
-    id: 'm5',
+    id: 'm4',
     categories: [
-      'c2'
-          'c5',
-      'c10',
+      'c1',
     ],
-    title: 'Salad with Smoked Salmon',
+    title: 'BREAD AND PEANUT BUTTER',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
@@ -221,12 +188,11 @@ const dummyMeals = [
     isLactoseFree: true,
   ),
   Meal(
-    id: 'm6',
+    id: 'm5',
     categories: [
-      'c6',
-      'c10',
+      'c1',
     ],
-    title: 'Delicious Orange Mousse',
+    title: 'MOI MOI & PAP',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
@@ -257,9 +223,9 @@ const dummyMeals = [
     isLactoseFree: false,
   ),
   Meal(
-    id: 'm7',
+    id: 'm6',
     categories: [
-      'c7',
+      'c1',
     ],
     title: 'Pancakes',
     affordability: Affordability.Affordable,
@@ -288,11 +254,11 @@ const dummyMeals = [
     isLactoseFree: false,
   ),
   Meal(
-    id: 'm8',
+    id: 'm7',
     categories: [
-      'c8',
+      'c1',
     ],
-    title: 'Creamy Indian Chicken Curry',
+    title: 'PLANTAIN & CUSTARD',
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
@@ -321,11 +287,11 @@ const dummyMeals = [
     isLactoseFree: true,
   ),
   Meal(
-    id: 'm9',
+    id: 'm8',
     categories: [
-      'c9',
+      'c1',
     ],
-    title: 'Chocolate Souffle',
+    title: 'AKARA AND PAP',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
@@ -369,14 +335,109 @@ const dummyMeals = [
     isVegetarian: true,
     isLactoseFree: false,
   ),
+
+  Meal(
+    id: 'm9',
+    categories: [
+      'c1',
+    ],
+    title: 'BOILED YAM & STEW',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
   Meal(
     id: 'm10',
     categories: [
-      'c2',
-      'c5',
-      'c10',
+      'c1',
     ],
-    title: 'Asparagus Salad with Cherry Tomatoes',
+    title: 'CEREAL- GOLDEN MORN, CORN FLAKES',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm11',
+    categories: [
+      'c1',
+    ],
+    title: 'OKPA & CUSTARD/PAP',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm12',
+    categories: [
+      'c1',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:

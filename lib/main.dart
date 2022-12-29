@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
     }
   }
 
-  bool _isMealFavorite(String mealId){
+  bool _isMealFavorite(String mealId) {
     return _favoritedMeals.any((meal) => meal.id == mealId);
   }
 
@@ -70,32 +70,33 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Meal Recipes',
+      title: 'FOODLYX',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: Colors.pink,
+          primary: Color.fromARGB(255, 54, 149, 49),
           secondary: Colors.amber,
         ),
         canvasColor: const Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
               bodyText1: const TextStyle(
-                color: Color.fromRGBO(20, 51, 51, 1),
+                color: Color.fromARGB(255, 253, 255, 255),
               ),
               bodyText2: const TextStyle(
-                color: Color.fromRGBO(20, 51, 51, 1),
+                color: Color.fromARGB(255, 255, 255, 255),
               ),
               subtitle1: const TextStyle(
                 fontSize: 20,
                 fontFamily: 'RobotoCondensed',
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
         appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(
             fontFamily: 'Raleway',
             fontSize: 20,
-            color: Color.fromRGBO(220, 220, 220, 1),
+            color: Color.fromARGB(255, 255, 255, 255),
           ),
         ),
       ),
@@ -104,7 +105,8 @@ class _MyAppState extends State<MyApp> {
         '/': (ctx) => TabsScreen(_favoritedMeals),
         CategoryMealsScreen.routeName: (ctx) =>
             CategoryMealsScreen(_availableMeals),
-        MealDetailScreen.routeName: (ctx) => MealDetailScreen(_toggleFavorite, _isMealFavorite),
+        MealDetailScreen.routeName: (ctx) =>
+            MealDetailScreen(_toggleFavorite, _isMealFavorite),
         FiltersScreen.routeName: (ctx) => FiltersScreen(_filters, _setFilters),
       },
       // onGenerateRoute: (settings) {
