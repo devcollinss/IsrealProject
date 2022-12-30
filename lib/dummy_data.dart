@@ -464,4 +464,326 @@ const dummyMeals = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
+
+  ////////////////////////////////////////////////////////////////////////////////////////// LUNCH STARTS HERE
+  Meal(
+    id: 'm13',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm14',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm15',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm12',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm16',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm17',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm18',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm19',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm20',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm21',
+    categories: [
+      'c2',
+    ],
+    title: 'OKPA & SOFT DRINK (COKE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
 ];
