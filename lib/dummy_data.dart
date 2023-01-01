@@ -786,4 +786,228 @@ const dummyMeals = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
+  Meal(
+    id: 'm22',
+    categories: [
+      'c3',
+    ],
+    title: 'FUFU AND EGUSI SOUP',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm23',
+    categories: [
+      'c3',
+    ],
+    title: 'JOLLOF RICE',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm24',
+    categories: [
+      'c3',
+    ],
+    title: 'WHITE RICE AND SAUCE OR STEW',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm25',
+    categories: [
+      'c3',
+    ],
+    title: 'PORRIDGE YAM',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm26',
+    categories: [
+      'c3',
+    ],
+    title: 'PORRIDGE BEANS',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm27',
+    categories: [
+      'c3',
+    ],
+    title: 'MOI MOI',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm28',
+    categories: [
+      'c3',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: [
+      'Wash, peel and cut the asparagus',
+      'Cook in salted water',
+      'Salt and pepper the asparagus',
+      'Roast the pine nuts',
+      'Halve the tomatoes',
+      'Mix with asparagus, salad and dressing',
+      'Serve with Baguette'
+    ],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
 ];
