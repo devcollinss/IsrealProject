@@ -1010,4 +1010,253 @@ const dummyMeals = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
+
+  ///////////////////////////////////////////////////////////////////////////////////////
+  Meal(
+    id: 'm29',
+    categories: [
+      'c4',
+    ],
+    title: 'Meshai',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 15,
+    ingredients: [
+      'Carrot',
+      'Egg'
+          'Green Bean',
+      'Pepper',
+      'Salt',
+      'Ground nut Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+
+  Meal(
+    id: 'm30',
+    categories: [
+      'c4',
+    ],
+    title: 'BURGER',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'Egg',
+      'Bacon',
+      'chopped Tomatoes',
+      'Choopeed Onions',
+      'Garlic'
+          'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm30',
+    categories: [
+      'c4',
+    ],
+    title: 'SHAWAMA',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+     'Chicken Thigh'
+     'Plain Yogurt'
+     'Vegetable oil'
+     'Salt aand Pepper'
+     'Sliced Tomatoes'
+     'Sliced Onion'
+     'Shredded Lectuse'
+     'Bread Rounds'
+
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm31',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm32',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm33',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm34',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm35',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm36',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
+    id: 'm37',
+    categories: [
+      'c4',
+    ],
+    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Simple,
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+    ingredients: [
+      'White and Green Asparagus',
+      '30g Pine Nuts',
+      '300g Cherry Tomatoes',
+      'Salad',
+      'Salt, Pepper and Olive Oil'
+    ],
+    steps: ['Enjoy your snacks!!!'],
+    isGlutenFree: true,
+    isVegan: true,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
 ];
