@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_recipes/dummy_data.dart';
-import 'package:meal_recipes/screens/categories_screen.dart';
+// import 'package:meal_recipes/screens/categories_screen.dart';
 import 'package:meal_recipes/screens/category_meals_screen.dart';
 import 'package:meal_recipes/screens/filters_screen.dart';
 import 'package:meal_recipes/screens/meal_detail_screen.dart';
@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   };
 
   List<Meal> _availableMeals = dummyMeals;
-  List<Meal> _favoritedMeals = [];
+  final List<Meal> _favoritedMeals = [];
 
   void _setFilters(Map<String, bool> filterData) {
     setState(() {

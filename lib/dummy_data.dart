@@ -1021,7 +1021,7 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://cdn.pixabay.com/photo/2016/08/23/23/11/egg-1615790_960_720.jpg',
     duration: 15,
     ingredients: [
       'Carrot',
@@ -1030,6 +1030,7 @@ const dummyMeals = [
       'Pepper',
       'Salt',
       'Ground nut Oil'
+          'etc'
     ],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
@@ -1047,7 +1048,7 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_960_720.jpg',
     duration: 30,
     ingredients: [
       'Egg',
@@ -1072,18 +1073,17 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://www.licious.in/blog/wp-content/uploads/2022/06/shutterstock_1339636625-1-750x750.jpg',
     duration: 30,
     ingredients: [
-     'Chicken Thigh'
-     'Plain Yogurt'
-     'Vegetable oil'
-     'Salt aand Pepper'
-     'Sliced Tomatoes'
-     'Sliced Onion'
-     'Shredded Lectuse'
-     'Bread Rounds'
-
+      'Chicken Thigh'
+          'Plain Yogurt'
+          'Vegetable oil'
+          'Salt aand Pepper'
+          'Sliced Tomatoes'
+          'Sliced Onion'
+          'Shredded Lectuse'
+          "Bread Rounds"
     ],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
@@ -1096,20 +1096,22 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'PIZZA',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://cdn.pixabay.com/photo/2016/02/16/07/39/pizza-1202775_960_720.jpg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Purpose Flour',
+      'Processed chesse',
+      'Tomatoe ketchup',
+      'Onion',
+      'Green Pepper',
+      'Pepper'
+          'Vegetable'
     ],
-    steps: ['Enjoy your snacks!!!'],
+    steps: ['Enjoy your meal!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -1120,19 +1122,13 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'Roasted Platain, Fish & sauce',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://guardian.ng/wp-content/uploads/2018/08/IMG_8068-1-e1534524746186.jpg',
     duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
+    ingredients: ['Roasted Plantain', 'Sauce'],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
     isVegan: true,
@@ -1144,18 +1140,21 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'MEAT PIE',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://cheflolaskitchen.com/wp-content/uploads/2015/07/Nigerian-Meat-Pie-3.jpg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Onion',
+      'Chopped Carrot',
+      'Irish Potatoe',
+      'Greenn ball pepper',
+      'Curry powder',
+      'Seasoning cube',
+      'Salt, Water',
+      'Vegetable oil'
     ],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
@@ -1168,18 +1167,21 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'SAMOSA',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://as2.ftcdn.net/v2/jpg/05/11/08/05/1000_F_511080597_NvqjRdezlARSQHy4VpAKFvUVTEeGdlLy.jpg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Irish Potatoes',
+      'Diced Onion',
+      'Ginger (optional)',
+      'Chili powder',
+      'Curry Powder'
+          'Beef Chunks'
+          'Salt',
+      'Vegetable Oil'
     ],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
@@ -1192,18 +1194,16 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'Tea and Biscuit',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://as2.ftcdn.net/v2/jpg/02/33/80/01/1000_F_233800140_yt6MmB76W1h1cxSms5TQWz3MPmyvvQkj.jpg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Biscuit'
+          'Milo'
+          'Peak Milks'
     ],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
@@ -1216,19 +1216,13 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'CHICKEN AND CHIPS',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
     duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
+    ingredients: ['Chips (Fried Potatoes)', 'Crispy Chicken', 'Sauce'],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
     isVegan: true,
@@ -1240,19 +1234,13 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
+    title: 'CHIPS & CHEESES',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
     duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
+    ingredients: ['Chesse Balls', 'Plantain Chips', 'Potatoe Chips'],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
     isVegan: true,
