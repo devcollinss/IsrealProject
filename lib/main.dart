@@ -73,7 +73,7 @@ class _MyAppState extends State<MyApp> {
       title: 'FOODLYX',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: Color.fromARGB(255, 54, 149, 49),
+          primary: const Color.fromARGB(255, 54, 149, 49),
           secondary: Colors.amber,
         ),
         canvasColor: const Color.fromRGBO(255, 254, 229, 1),
