@@ -6,59 +6,26 @@ const dummyCategories = [
   Category(
     id: 'c1',
     title: 'BREAKFAST',
-    color: Color.fromARGB(255, 24, 111, 27),
+    color: Color.fromARGB(255, 181, 253, 14),
   ),
   Category(
     id: 'c2',
     title: 'LUNCH',
-    color: Color.fromARGB(255, 24, 111, 27),
+    color: Color.fromARGB(255, 181, 253, 14),
   ),
   Category(
     id: 'c3',
     title: 'DINNER/SUPER',
-    color: Color.fromARGB(255, 24, 111, 27),
+    color: Color.fromARGB(255, 181, 253, 14),
   ),
   Category(
     id: 'c4',
     title: 'SNACKS',
-    color: Color.fromARGB(255, 24, 111, 27),
+    color: Color.fromARGB(255, 181, 253, 14),
   ),
 ];
 
 const dummyMeals = [
-  // const Meal(
-  //   id: 'm1',
-  //   categories: [
-  //     'c7',
-  //   ],
-  //   title: 'Spaghetti with Tomato Sauce',
-  //   affordability: Affordability.Affordable,
-  //   complexity: Complexity.Simple,
-  //   imageUrl:
-  //       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
-  //   duration: 20,
-  //   ingredients: [
-  //     '4 Tomatoes',
-  //     '1 Tablespoon of Olive Oil',
-  //     '1 Onion',
-  //     '250g Spaghetti',
-  //     'Spices',
-  //     'Cheese (optional)'
-  //   ],
-  //   steps: [
-  //     'Cut the tomatoes and the onion into small pieces.',
-  //     'Boil some water - add salt to it once it boils.',
-  //     'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-  //     'In the meantime, heaten up some olive oil and add the cut onion.',
-  //     'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-  //     'The sauce will be done once the spaghetti are.',
-  //     'Feel free to add some cheese on top of the finished dish.'
-  //   ],
-  //   isGlutenFree: false,
-  //   isVegan: true,
-  //   isVegetarian: true,
-  //   isLactoseFree: true,
-  // ),
   Meal(
     id: 'm1',
     categories: [
@@ -68,20 +35,16 @@ const dummyMeals = [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
-    duration: 10,
+        'https://christinebailey.co.uk/wp-content/uploads/2015/03/green-tea-bread-email.jpg',
+    duration: 5,
     ingredients: [
-      '1 Slice White Bread',
-      '1 Slice Ham',
-      '1 Slice Pineapple',
-      '1-2 Slices of Cheese',
+      'Ovaltine, Milo, Chocolate',
+      'Peak milk, Dano milk, Cowbell milk, Loya milk'
+          'Cube Sugar',
+      '5 slice of bread',
       'Butter'
     ],
-    steps: [
-      'Butter one side of the white bread',
-      'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200°C'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: false,
     isVegan: false,
     isVegetarian: false,
@@ -95,24 +58,10 @@ const dummyMeals = [
     title: 'BIOLED YAM & EGG SAUCE',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
-    duration: 45,
-    ingredients: [
-      '300g Cattle Hack',
-      '1 Tomato',
-      '1 Cucumber',
-      '1 Onion',
-      'Ketchup',
-      '2 Burger Buns'
-    ],
-    steps: [
-      'Form 2 patties',
-      'Fry the patties for c. 4 minutes on each side',
-      'Quickly fry the buns for c. 1 minute on each side',
-      'Bruch buns with ketchup',
-      'Serve burger with tomato, cucumber and onion'
-    ],
+    imageUrl: 'https://allnigerianfoods.com/wp-content/uploads/Egg-Sauce.jpg',
+    duration: 30,
+    ingredients: ['Boiled yam', 'Egg', 'Pepper', 'Onion', 'Ketchup'],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: false,
     isVegan: false,
     isVegetarian: false,
@@ -127,27 +76,18 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
-    duration: 60,
+        'https://images.summitmedia-digital.com/yummyph/images/2020/04/06/coffeepancakerecipe2.jpg',
+    duration: 10,
     ingredients: [
-      '8 Veal Cutlets',
-      '4 Eggs',
-      '200g Bread Crumbs',
-      '100g Flour',
-      '300ml Butter',
-      '100g Vegetable Oil',
-      'Salt',
-      'Lemon Slices'
+      'Tea, Coffee',
+      'Egg',
+      'Bread Crumbs',
+      'Flour',
+      'Butter',
+      'Vegetable Oil',
+      'Salt'
     ],
-    steps: [
-      'Tenderize the veal to about 2–4mm, and salt on both sides.',
-      'On a flat plate, stir the eggs briefly with a fork.',
-      'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
-      'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
-      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
-      'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: false,
     isVegan: false,
     isVegetarian: false,
@@ -162,26 +102,13 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
-    duration: 15,
+        'https://littlesunnykitchen.com/wp-content/uploads/2022/03/Peanut-Butter-Bread-4-730x1095.jpg',
+    duration: 10,
     ingredients: [
-      'Arugula',
-      'Lamb\'s Lettuce',
-      'Parsley',
-      'Fennel',
-      '200g Smoked Salmon',
-      'Mustard',
-      'Balsamic Vinegar',
-      'Olive Oil',
-      'Salt and Pepper'
+      'Sliced Bread'
+          'Peanut Butter'
     ],
-    steps: [
-      'Wash and cut salad and herbs',
-      'Dice the salmon',
-      'Process mustard, vinegar and olive oil into a dessing',
-      'Prepare the salad',
-      'Add salmon cubes and dressing'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: false,
     isVegetarian: true,
@@ -196,27 +123,18 @@ const dummyMeals = [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
-    duration: 240,
+        'https://www.dominionkitcheninternational.com/wp-content/uploads/2021/04/pap-with-moi-moi.jpg',
+    duration: 20,
     ingredients: [
-      '4 Sheets of Gelatine',
-      '150ml Orange Juice',
-      '80g Sugar',
-      '300g Yoghurt',
-      '200g Cream',
-      'Orange Peel',
+      'Pap (Custard)'
+          'Beans',
+      'Pepper',
+      'Onion',
+      'Crayfish',
+      'Fish',
+      'Hard boiled egg',
     ],
-    steps: [
-      'Dissolve gelatine in pot',
-      'Add orange juice and sugar',
-      'Take pot off the stove',
-      'Add 2 tablespoons of yoghurt',
-      'Stir gelatin under remaining yoghurt',
-      'Cool everything down in the refrigerator',
-      'Whip the cream and lift it under die orange mass',
-      'Cool down again for at least 4 hours',
-      'Serve with orange peel',
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: false,
     isVegetarian: true,
@@ -231,23 +149,18 @@ const dummyMeals = [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+        'https://images.summitmedia-digital.com/yummyph/images/2020/04/06/coffeepancakerecipe2.jpg',
     duration: 20,
     ingredients: [
-      '1 1/2 Cups all-purpose Flour',
-      '3 1/2 Teaspoons Baking Powder',
-      '1 Teaspoon Salt',
-      '1 Tablespoon White Sugar',
-      '1 1/4 cups Milk',
-      '1 Egg',
-      '3 Tablespoons Butter, melted',
+      ' Flour',
+      'Baking Powder',
+      'Salt',
+      ' Sugar',
+      'Milk',
+      'Egg',
+      'Butter, melted',
     ],
-    steps: [
-      'In a large bowl, sift together the flour, baking powder, salt and sugar.',
-      'Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.',
-      'Heat a lightly oiled griddle or frying pan over medium high heat.',
-      'Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: false,
     isVegetarian: true,
@@ -262,25 +175,13 @@ const dummyMeals = [
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
-    duration: 35,
+        'https://www.dominionkitcheninternational.com/wp-content/uploads/2021/04/Fried-plantains.jpg',
+    duration: 15,
     ingredients: [
-      '4 Chicken Breasts',
-      '1 Onion',
-      '2 Cloves of Garlic',
-      '1 Piece of Ginger',
-      '4 Tablespoons Almonds',
-      '1 Teaspoon Cayenne Pepper',
-      '500ml Coconut Milk',
+      'Fried Plantain'
+          'Custard'
     ],
-    steps: [
-      'Slice and fry the chicken breast',
-      'Process onion, garlic and ginger into paste and sauté everything',
-      'Add spices and stir fry',
-      'Add chicken breast + 250ml of water and cook everything for 10 minutes',
-      'Add coconut milk',
-      'Serve with rice'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: false,
     isVegetarian: false,
@@ -291,45 +192,20 @@ const dummyMeals = [
     categories: [
       'c1',
     ],
-    title: 'AKARA AND PAP',
+    title: 'AKARA AND PAP(CUSTARD)',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
-    duration: 45,
+        'https://www.dominionkitcheninternational.com/wp-content/uploads/2021/04/pap-with-akara.jpg',
+    duration: 15,
     ingredients: [
-      '1 Teaspoon melted Butter',
-      '2 Tablespoons white Sugar',
-      '2 Ounces 70% dark Chocolate, broken into pieces',
-      '1 Tablespoon Butter',
-      '1 Tablespoon all-purpose Flour',
-      '4 1/3 tablespoons cold Milk',
-      '1 Pinch Salt',
-      '1 Pinch Cayenne Pepper',
-      '1 Large Egg Yolk',
-      '2 Large Egg Whites',
-      '1 Pinch Cream of Tartar',
-      '1 Tablespoon white Sugar',
+      'Grounded beans'
+          'Onion'
+          'Pepper'
+          'Salt'
+          'Vegetable oil'
     ],
-    steps: [
-      'Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.',
-      'Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.',
-      'Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.',
-      'Place chocolate pieces in a metal mixing bowl.',
-      'Place bowl over a pan of about 3 cups hot water over low heat.',
-      'Melt 1 tablespoon butter in a skillet over medium heat. Sprinkle in flour. Whisk until flour is incorporated into butter and mixture thickens.',
-      'Whisk in cold milk until mixture becomes smooth and thickens. Transfer mixture to bowl with melted chocolate.',
-      'Add salt and cayenne pepper. Mix together thoroughly. Add egg yolk and mix to combine.',
-      'Leave bowl above the hot (not simmering) water to keep chocolate warm while you whip the egg whites.',
-      'Place 2 egg whites in a mixing bowl; add cream of tartar. Whisk until mixture begins to thicken and a drizzle from the whisk stays on the surface about 1 second before disappearing into the mix.',
-      'Add 1/3 of sugar and whisk in. Whisk in a bit more sugar about 15 seconds.',
-      'whisk in the rest of the sugar. Continue whisking until mixture is about as thick as shaving cream and holds soft peaks, 3 to 5 minutes.',
-      'Transfer a little less than half of egg whites to chocolate.',
-      'Mix until egg whites are thoroughly incorporated into the chocolate.',
-      'Add the rest of the egg whites; gently fold into the chocolate with a spatula, lifting from the bottom and folding over.',
-      'Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.',
-      'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.',
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: false,
     isVegetarian: true,
@@ -341,28 +217,22 @@ const dummyMeals = [
     categories: [
       'c1',
     ],
-    title: 'BOILED YAM & STEW',
+    title: 'YAM & EGG SAUCE',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://yummyscious.com/wp-content/uploads/2022/06/FB_IMG_16546181237545498.jpg',
+    duration: 25,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Boiled Yam'
+          'Egg'
+          'Ginger'
+          'Tomatoes',
+      'Salt',
+      'Pepper',
+      'Palm Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -377,24 +247,10 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+        'https://www.newfoodmagazine.com/wp-content/uploads/cereal-bowl_for-web.jpg',
+    duration: 10,
+    ingredients: ['SUGAR', 'CEREAL', 'GOLDEN MORN', 'CORN FLAKES', 'MILK'],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -409,24 +265,17 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://www.dominionkitcheninternational.com/wp-content/uploads/2021/04/pap-with-moi-moi.jpg',
+    duration: 15,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Custard',
+      'Sugar',
+      'Grounded Cowpea',
+      'Pepper',
+      'Salt',
+      'Red Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -437,28 +286,17 @@ const dummyMeals = [
     categories: [
       'c1',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'CHICKEN LAPS',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://littlesunnykitchen.com/wp-content/uploads/2021/10/Instant-Pot-Chicken-Drumsticks-1-730x1095.jpg',
+    duration: 10,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Chicken Laps'
+          'Sauce'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your breakfast!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -471,28 +309,14 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'BEANS AND YAM',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+        'https://koboline.com.ng/wp-content/uploads/2022/06/beans-plaintain.jpeg',
+    duration: 60,
+    ingredients: ['Yam', 'Beans', 'Pepper', 'Salt', 'Red Oil'],
+    steps: ['Enjoy your Lunch!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -503,28 +327,17 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'EBA AND EGUSI SOUP',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://koboline.com.ng/wp-content/uploads/2022/06/jollof-rice.jpeg',
+    duration: 15,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Eba (White)'
+          'Egusi soup'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -535,28 +348,18 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'SPAGHETTI',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    imageUrl: 'https://koboline.com.ng/wp-content/uploads/2022/04/pasta.jpeg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Spaghetti',
+      'Boiled Egg',
+      'Pepper',
+      'Salt, Pepper and vegetable Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -567,28 +370,19 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'PARTY JOLOF RICE',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://koboline.com.ng/wp-content/uploads/2022/06/jollof-rice.jpeg',
+    duration: 40,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Jollof Rice'
+          'Fish'
+          'Ginger'
+          'Onion'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -599,28 +393,20 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'PLANTAIN POTTAGE ',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://www.mydiasporakitchen.com/wp-content/uploads/2017/07/Mydiasporakitchen-3.jpg-1-1024x1024.jpeg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
+      'Unriped Plantain',
       'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Salt',
+      'Pepper'
+          'Vegetable Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -631,28 +417,17 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'BEANS AND FRIED PLANTAIN',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://koboline.com.ng/wp-content/uploads/2022/06/beans-plaintain.jpeg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Beans porridge'
+          'Fried plantain'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -663,28 +438,24 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'RICE AND VEGETABLE STEW',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://koboline.com.ng/wp-content/uploads/2022/06/rice-stew.jpg',
+    duration: 20,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
+      'Foreign Rice'
+          'vegetable (ugu)'
+          'Ginger',
+      'scotch bonnet',
+      'mushrooms'
+          'Nut  meg',
+      'Cherry Tomatoes',
       'Salad',
       'Salt, Pepper and Olive Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -695,27 +466,21 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'AMALA & EWEDU',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://koboline.com.ng/wp-content/uploads/2022/06/amala-ewedu.jpg',
+    duration: 20,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Ewedu leaves'
+          'Locust beans'
+          'Crayfish'
+          'Salt'
+          'Pepper'
     ],
     steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
+      'Enjoy your lunch!!',
     ],
     isGlutenFree: true,
     isVegan: true,
@@ -727,28 +492,18 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'MOI MOI',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://www.mydiasporakitchen.com/wp-content/uploads/2019/06/savingpng-19.png',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Grounded beans'
+          'Crayfish'
+          'Pepper'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -759,28 +514,16 @@ const dummyMeals = [
     categories: [
       'c2',
     ],
-    title: 'OKPA & SOFT DRINK (COKE)',
+    title: 'ABACHA',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+    imageUrl: 'https://allnigerianfoods.com/wp-content/uploads/abacha.jpg',
+    duration: 10,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Fried fish'
+          'Salt, Pepper and Olive Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -791,28 +534,18 @@ const dummyMeals = [
     categories: [
       'c3',
     ],
-    title: 'FUFU AND EGUSI SOUP',
+    title: 'YAM PORRIDGE',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://www.mydiasporakitchen.com/wp-content/uploads/2017/07/Mydiasporakitchen-3.jpg-1-1024x1024.jpeg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Boiled Yam'
+          'Vegetable'
+          'Salt, Pepper and Red Oil'
     ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
+    steps: ['Enjoy your lunch!!'],
     isGlutenFree: true,
     isVegan: true,
     isVegetarian: true,
@@ -823,178 +556,19 @@ const dummyMeals = [
     categories: [
       'c3',
     ],
-    title: 'JOLLOF RICE',
+    title: 'OFADA RICE & STEW',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://sisijemimah.com/wp-content/uploads/2015/12/Ofada-stew-2-1024x731.jpg',
     duration: 30,
     ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meal(
-    id: 'm24',
-    categories: [
-      'c3',
-    ],
-    title: 'WHITE RICE AND SAUCE OR STEW',
-    affordability: Affordability.Luxurious,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meal(
-    id: 'm25',
-    categories: [
-      'c3',
-    ],
-    title: 'PORRIDGE YAM',
-    affordability: Affordability.Luxurious,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meal(
-    id: 'm26',
-    categories: [
-      'c3',
-    ],
-    title: 'PORRIDGE BEANS',
-    affordability: Affordability.Luxurious,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meal(
-    id: 'm27',
-    categories: [
-      'c3',
-    ],
-    title: 'MOI MOI',
-    affordability: Affordability.Luxurious,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    steps: [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meal(
-    id: 'm28',
-    categories: [
-      'c3',
-    ],
-    title: 'BEANS AND ROASTED PLANTAIN (BOLE)',
-    affordability: Affordability.Luxurious,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'Bell peppers'
+          'Scotch bonnet ppper'
+          'Red onion'
+          'Goat meat'
+          'Palm oil'
+          'Salt, Pepper and Olive Oil'
     ],
     steps: [
       'Wash, peel and cut the asparagus',
@@ -1011,7 +585,7 @@ const dummyMeals = [
     isLactoseFree: true,
   ),
 
-  ///////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////////////////////DINNER/SUPER
   Meal(
     id: 'm29',
     categories: [
@@ -1022,7 +596,7 @@ const dummyMeals = [
     complexity: Complexity.Simple,
     imageUrl:
         'https://cdn.pixabay.com/photo/2016/08/23/23/11/egg-1615790_960_720.jpg',
-    duration: 15,
+    duration: 20,
     ingredients: [
       'Carrot',
       'Egg'
@@ -1074,7 +648,7 @@ const dummyMeals = [
     complexity: Complexity.Simple,
     imageUrl:
         'https://www.licious.in/blog/wp-content/uploads/2022/06/shutterstock_1339636625-1-750x750.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Chicken Thigh'
           'Plain Yogurt'
@@ -1101,7 +675,7 @@ const dummyMeals = [
     complexity: Complexity.Simple,
     imageUrl:
         'https://cdn.pixabay.com/photo/2016/02/16/07/39/pizza-1202775_960_720.jpg',
-    duration: 30,
+    duration: 25,
     ingredients: [
       'Purpose Flour',
       'Processed chesse',
@@ -1145,7 +719,7 @@ const dummyMeals = [
     complexity: Complexity.Simple,
     imageUrl:
         'https://cheflolaskitchen.com/wp-content/uploads/2015/07/Nigerian-Meat-Pie-3.jpg',
-    duration: 30,
+    duration: 5,
     ingredients: [
       'Onion',
       'Chopped Carrot',
@@ -1172,7 +746,7 @@ const dummyMeals = [
     complexity: Complexity.Simple,
     imageUrl:
         'https://as2.ftcdn.net/v2/jpg/05/11/08/05/1000_F_511080597_NvqjRdezlARSQHy4VpAKFvUVTEeGdlLy.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Irish Potatoes',
       'Diced Onion',
@@ -1199,7 +773,7 @@ const dummyMeals = [
     complexity: Complexity.Simple,
     imageUrl:
         'https://as2.ftcdn.net/v2/jpg/02/33/80/01/1000_F_233800140_yt6MmB76W1h1cxSms5TQWz3MPmyvvQkj.jpg',
-    duration: 30,
+    duration: 5,
     ingredients: [
       'Biscuit'
           'Milo'
@@ -1220,8 +794,8 @@ const dummyMeals = [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
+        'https://drumstix.com.ng/wp-content/uploads/2020/04/DRUMSTIX-1.jpg',
+    duration: 15,
     ingredients: ['Chips (Fried Potatoes)', 'Crispy Chicken', 'Sauce'],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
@@ -1234,13 +808,18 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'CHIPS & CHEESES',
+    title: 'CHIPS & CHIN CHIN',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    duration: 30,
-    ingredients: ['Chesse Balls', 'Plantain Chips', 'Potatoe Chips'],
+        'https://www.africanbites.com/wp-content/uploads/2012/11/IMG_2641.jpg',
+    duration: 10,
+    ingredients: [
+      'Chesse Balls',
+      'Plantain Chips',
+      'Potatoe Chips',
+      'Chin Chin'
+    ],
     steps: ['Enjoy your snacks!!!'],
     isGlutenFree: true,
     isVegan: true,
